@@ -1,0 +1,10 @@
+flask
+requests
+beautifulsoup4
+lxml
+playwright
+pypdf
+pyluach
+astral
+anthropic
+gunicorn

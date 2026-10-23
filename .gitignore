@@ -1,0 +1,6 @@
+.venv
+cache
+output
+__pycache__
+*.zip
+data/settings.json

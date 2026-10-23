@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: kovetz
+    runtime: docker
+    plan: starter            # Chromium needs more than the 512 MB free tier
+    envVars:
+      - key: SITE_PASSWORD
+        sync: false          # you type it in the Render dashboard
+      - key: ANTHROPIC_API_KEY
+        sync: false
